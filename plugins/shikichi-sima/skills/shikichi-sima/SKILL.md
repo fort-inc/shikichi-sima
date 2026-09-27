@@ -129,8 +129,12 @@ python -m pytest "${CLAUDE_PLUGIN_ROOT}/tests" -q
 
 外す時は、プラグインを外すだけでよい。使う人のフォルダには、書き出した `.json`・`.sim`・`.dxf` の他に何も残していない。
 
-```
-claude plugin uninstall shikichi-sima@shikichi-sima
-```
+- コマンドで入れた時(`shikichi-sima@shikichi-sima`):
+
+  ```
+  claude plugin uninstall shikichi-sima@shikichi-sima
+  ```
+
+- フォルダごと配られて `.claude/skills/shikichi-sima/` に置かれている時(`shikichi-sima@skills-dir`): そのフォルダを消す
 
 会社のフォルダを git で管理しているなら、`.gitattributes` に `*.sim binary` と `*.dxf binary` の2行を入れておく。既定の改行変換のままだと、別の機械で取り出した `.sim` の CRLF が崩れて読み込めなくなる。
