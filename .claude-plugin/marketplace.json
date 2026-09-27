@@ -1,0 +1,16 @@
+{
+  "name": "shikichi-sima",
+  "owner": {
+    "name": "Fort"
+  },
+  "metadata": {
+    "description": "測量図の座標から、CAD に読み込む敷地データ(SIMA／DXF)を検算付きで作る Claude Code プラグイン"
+  },
+  "plugins": [
+    {
+      "name": "shikichi-sima",
+      "source": "./plugins/shikichi-sima",
+      "description": "測量図(丈量図・地積測量図)の座標求積表から、CAD に読み込む敷地データ(SIMA .sim／DXF)を検算付きで作る。合言葉は「測量図から敷地データ作って」"
+    }
+  ]
+}

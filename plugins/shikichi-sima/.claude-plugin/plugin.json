@@ -1,0 +1,9 @@
+{
+  "name": "shikichi-sima",
+  "description": "測量図(丈量図・地積測量図)の座標求積表から、CAD に読み込む敷地データ(SIMA .sim／DXF)を検算付きで作る。合言葉は「測量図から敷地データ作って」",
+  "version": "1.0.0",
+  "author": {
+    "name": "Fort"
+  },
+  "license": "MIT"
+}
